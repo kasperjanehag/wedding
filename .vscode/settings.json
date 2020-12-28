@@ -1,4 +1,6 @@
 {
-    "python.pythonPath": "C:\\Users\\kaspe\\AppData\\Local\\Continuum\\anaconda3\\envs\\wedding\\python.exe"
+    "python.linting.pycodestyleEnabled": false,
+    "python.linting.enabled": true,
+    "python.linting.flake8Enabled": true
 }
 
