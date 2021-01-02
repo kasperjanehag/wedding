@@ -1,6 +1,7 @@
 {
     "python.linting.pycodestyleEnabled": false,
     "python.linting.enabled": true,
-    "python.linting.flake8Enabled": true
+    "python.linting.flake8Enabled": true,
+    "python.pythonPath": "/Users/kasperjanehag/opt/anaconda3/envs/wedding/bin/python"
 }
 

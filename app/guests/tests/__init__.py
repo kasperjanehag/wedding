@@ -1,2 +1,2 @@
-from .test_guest_models import *
-from .test_importer import *
+from .test_guest_models import PartyTest
+from .test_importer import GuestImporterTest
