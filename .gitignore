@@ -9,5 +9,3 @@ _working/
 data/
 static/
 guests/static/save-the-date/images/archive/
-docker-compose.prod.yml
-docker-compose.yml
