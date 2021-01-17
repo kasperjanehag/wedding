@@ -48,7 +48,8 @@ RUN mkdir $APP_HOME/static
 WORKDIR $APP_HOME
 
 # install dependencies
-RUN apk update && apk add --no-cache libpq gcc musl-dev libffi-dev libressl-dev nodejs yarn make
+RUN apk update \
+    && apk add --no-cache libpq gcc musl-dev libffi-dev libressl-dev nodejs yarn make
 COPY --from=builder /usr/src/app/wheels /wheels
 COPY --from=builder /usr/src/app/requirements.txt .
 RUN pip install --upgrade pip
